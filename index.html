@@ -1,31 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styl.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styl.css" />
+  </head>
+  <body>
     <section>
-        <nav>
-            <img src="./assets/FES.svg" alt="">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Discord</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <header>
-            <div>
-                <h1>Best Place to Learn Frontend</h1>
-                <p>Go from absolute beginner to pro with a simplified process</p>
-                <button>Start Now</button>
-            </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="">
-            </figure>
-        </header>
+      <nav>
+        <img src="./assets/FES.svg" alt="" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#discord">Discord</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1>Best Place to Learn Frontend</h1>
+          <p>Go from absolute beginner to pro with a simplified process</p>
+          <button>Start Now</button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Home page image" />
+        </figure>
+      </header>
     </section>
-</body>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            molestiae itaque cumque ullam perferendis quia doloremque quisquam
+            dolorum libero minus, esse repudiandae dolor expedita temporibus
+            officiis provident nisi nesciunt repellat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+            aliquid reprehenderit modi quasi unde non enim provident eligendi.
+            Cupiditate ipsa, perferendis sed provident vitae odio ipsum
+            distinctio nam consequuntur nulla.
+          </p>
+        </div>
+        <figure>
+          <img src="./assets/about.jpg" alt="" />
+        </figure>
+      </section>
+      <section id="discord">
+        <figure>
+          <img src="./assets/discord.png" alt="" />
+          <h2>Discord</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste,
+            assumenda? Enim minus eos facilis accusamus dolor eaque veniam
+            quibusdam quis tempore. Repellat molestiae consectetur reprehenderit
+            quibusdam cupiditate tenetur voluptates culpa!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            dolor. Nobis, qui. Amet laudantium deleniti autem, consectetur
+            magnam quas explicabo sint praesentium, sunt ipsam ducimus est.
+            Repellat maxime sed aperiam.
+          </p>
+        </figure>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <span>Email</span>
+            <input type="text" placeholder="jane@example.com">
+            <span>Message</span>
+            <textarea type="text" placeholder="Send me a message.">
+        </form>
+      </section>
+    </main>
+
+    <footer>
+        <img src="./assets/FES.svg" alt="FES LOGO">
+        <div>
+            <a href="#about">About</a>
+            <a href="#discord">Discord</a>
+            <a href="#contact">Contact</a>
+            <a href="#courses">Courses</a>
+        </div>
+        <p>Copyright &copy; Frontend Simplified 2026</p>
+    </footer>
+  </body>
 </html>
